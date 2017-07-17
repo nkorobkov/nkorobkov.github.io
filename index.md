@@ -1,9 +1,9 @@
 ### Current status
-I'm currently on H4 visa in USA authorized only for educational/volunteering work
+I'm currently live and study in Saint-Petersburg state University in Russia 
 
 ### Projects
-You can check out some of my projects in my [github profile](https://github.com/insolia)
+You can check out some of my projects in my [github profile](https://github.com/nkorobkov)
 
 ### Contact information
 - Email nikkorobk@gmail.com
-- Phone +1(650)-695-9710
+- Phone +7(903)600-44-77
