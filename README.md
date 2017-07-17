@@ -1,1 +1,1 @@
-**Hello, this going to be my page
+This is a little repo to hold my jekyll powered page
