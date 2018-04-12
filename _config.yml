@@ -3,6 +3,8 @@ description: Welcome to my public web page
 google_analytics: 
 show_downloads: true
 theme: jekyll-theme-minimal
+logo: /userpic.jpg
+
 
 gems:
   - jekyll-mentions
