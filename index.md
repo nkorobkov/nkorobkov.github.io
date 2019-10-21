@@ -1,11 +1,18 @@
-### Current status
-I recently graduated from uniersity and seeking for an IT position in tech company. 
+### About
+I'm a Software Engineer with industry experience.  
+Interested in Backend Development with Python or Java.  
+And Machine Learning. Especialy NLP and Reinforcement. 
 
-### Projects
-You can check out some of my projects in my [github profile](https://github.com/nkorobkov)
+### CV
+
+- [CV](Nikita-Korobkov.pdf)
+- [LinkedIn](https://www.linkedin.com/in/nkorobkov/)
+- [Completed Online Cources](https://stepik.org/users/808784)
+- [Projects on GutHub](https://github.com/nkorobkov)
 
 
+### Contacts
+- Email: [nikkorobk@gmail.com](mailto:nikkorobk@gmail.com)
+- Phone: +1 (650) 695 9710
 
-### Contact information
-- Email nikkorobk@gmail.com
-- Phone +7 (904)216-14-42
+
