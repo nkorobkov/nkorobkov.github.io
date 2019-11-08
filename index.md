@@ -5,7 +5,7 @@ And Machine Learning. Especialy NLP and Reinforcement.
 
 ### CV
 
-- [CV](Nikita-Korobkov.pdf)
+- [PDF](Nikita-Korobkov.pdf)
 - [LinkedIn](https://www.linkedin.com/in/nkorobkov/)
 - [Completed Online Cources](https://stepik.org/users/808784)
 - [Projects on GutHub](https://github.com/nkorobkov)
