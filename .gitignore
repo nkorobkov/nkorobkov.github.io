@@ -4,4 +4,6 @@ _site
 Thumbs.db
 _drafts
 .ruby-version
+.jekyl_cache/*
 Gemfile.lock
+.idea/*

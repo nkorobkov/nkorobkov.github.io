@@ -14,9 +14,9 @@
     - Hibernate
     - Maven
 
-- main: JavaScript
+- main: Web
   and:
-    - HTML/CSS
+    - HTML/CSS/JS
     - JQuery
     - React
     - Angular
