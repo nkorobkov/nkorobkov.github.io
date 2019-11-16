@@ -1,10 +1,71 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
 title: Nikita Korobkov
-description: Software Engineer with work experience
-google_analytics: 
-show_downloads: false
-theme: jekyll-theme-minimal
-logo: /userpic.jpg
+email: nikkorobk@gmail.com
+description: Nikita Korobkov's home page
+url: # the base hostname & protocol for your site
+keywords: ["Engineer", "development", "Software", "resume"]
 
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          America/New_York
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
 
-gems:
-  - jekyll-mentions
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Nikita Korobkov
+  avatar: avatar.jpg
+  job: "Software Engineer"
+  bio: "Software Engineer with experience in backend development"
+  email: nikkorobk@gmail.com
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: nkorobkov
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: nkorobkov
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: nikkorobk

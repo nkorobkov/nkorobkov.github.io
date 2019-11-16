@@ -1,0 +1,36 @@
+# skills section data
+
+- main: Python
+  and: 
+    - Django-Framework
+    - NumPy
+    - PyTorch
+    - OpenCV
+    - Jypyter
+  
+- main: Java
+  and:
+    - Spring-Framework
+    - Hibernate
+    - Maven
+
+- main: JavaScript
+  and:
+    - HTML/CSS
+    - JQuery
+    - React
+    - Angular
+
+- main: Data
+  and:
+    - R
+    - PostgreSQL
+
+- main: Other
+  and:
+    - git
+    - Docker
+    - AWS
+    - JIRA
+    - Unix
+

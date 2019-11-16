@@ -1,0 +1,8 @@
+- name: Bank
+  descr: A full-sized web application to support virtual economy, developed for SSPM. 
+  github: https://github.com/nkorobkov/bank-lfmsh
+
+- name: Microglia Recognition
+- name: Virus War Game
+- name: Brain Ring Button
+# - name: Memory Pinball

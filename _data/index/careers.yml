@@ -1,0 +1,36 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Natera
+  link: http://natera.com/
+  date: Jan 2017 - July 2017
+  job: Software Engineer Intern
+  description: Worked as a full-time team member during 7 month internship. Implemented new features for Production Review project on the Backend and Frontend sides. 
+  skills: 
+    - Java
+    - Angular
+    - API Development
+    - HSQLDB
+    - JIRA
+
+- name: Summer School of Physics and Math
+  link: http://lfmsh.ru
+  date: Aug 2016, Aug 2017, Aug 2018
+  job: Software Engineer
+  description: Developed a full-sized web application to support gamification system that was previously run on Excel spreadsheets. Eliminated all game-related paperwork for more than 35 members of staff team. Raised studetns engagement by providing faster feedback loop. 
+  skills: 
+    - Python
+    - Django-Framework
+    - PostgreSQL
+    - Docker
+    - Unix
+    - System Administration
+
+- name: Summer School of Physics and Math
+  link: http://lfmsh.ru
+  date: Aug 2016, Aug 2017, Aug 2018
+  job: Python Teacher
+  description: Taught the 3-week course of Python to 9-12 grades. 
+  skills:
+    - Python-basics
+    - collections
+    - matplotlib

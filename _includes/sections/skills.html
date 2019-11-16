@@ -1,0 +1,16 @@
+<h1><span data-i18n="skills.my_skills">Skills</span></h1>
+
+<div class="skills">
+    {% for skillset in site.data.index.skills %}
+        <div class="skillset">
+            <strong>
+                <span class="skill-main">{{ skillset.main }}:</span>
+            </strong>
+            {% for skill in skillset.and %} 
+            <span class="skill-add">
+                {{ skill }}
+            </span> 
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>
