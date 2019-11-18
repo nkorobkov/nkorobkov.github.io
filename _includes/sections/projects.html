@@ -1,18 +1,31 @@
-<h1><span data-i18n="skills.my_skills">Projects</span></h1>
+<h1><span data-i18n="skills.my_skills">Featured Projects</span></h1>
 
 {% for project in site.data.index.projects %}
+{% if project.featured %}
     <div class="row">
             <div class="col">
-                <h2 style="margin: 0">{{ project.name }}</h2>
-                <p style="margin: 0">{{ project.descr }}</p>
-
+                <hr>
+                <h2 style="text-align:left;float:left; margin: 0; ">{{ project.name }}</h2>
                 {% if project.github %}
-                <a href="{{ project.github }} "><i class="fa fa-fw fa-github"></i>GitHub</a>
+                <a class="btn-small" href="{{ project.github }} "><i class="fa fa-fw fa-github"></i>GitHub</a>
+                {% endif %}
+                {% if project.github %}
+                <a class="btn-small" href="{{site.url}}/projects/{{ project.description-link }} "><i class="fa fa-fw fa-file-text-o"></i>Description</a>
                 {% endif %}
                 {% if project.website %}
-                <a href="{{ project.website }} "><i class="fa fa-fw fa-home"></i>Homepage</a>
+                <a class="btn-small" href="{{ project.website }} "><i class="fa fa-fw fa-home"></i>Homepage</a>
                 {% endif %}
-
+                <br style="clear:both;"/>
+                <p style="margin: 0">{{ project.descr }}</p>
+                <div class="skills">
+                    <div class="skillset" style="padding-left: 0">
+                        {% for skill in project.skills %}
+                        <span class="skill-add">{{skill}}</span>
+                        {% endfor %}
+                    </div>
+                </div>
             </div>
     </div>
+{% endif %}
 {% endfor %}
+<hr>

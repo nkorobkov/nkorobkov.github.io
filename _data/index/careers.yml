@@ -16,13 +16,15 @@
   link: http://lfmsh.ru
   date: Aug 2016, Aug 2017, Aug 2018
   job: Software Engineer
-  description: Developed a full-sized web application to support gamification system that was previously run on Excel spreadsheets. Eliminated all game-related paperwork for more than 35 members of staff team. Raised studetns engagement by providing faster feedback loop. 
-  skills: 
+  description: Developed a full-sized web application to support gamification system that was previously run on Excel spreadsheets.
+    Eliminated all game-related paperwork for more than 35 members of staff team. Raised studetns engagement by providing faster feedback loop.
+  skills:
     - Python
     - Django-Framework
     - PostgreSQL
     - Docker
     - Unix
+    - Nginx
     - System Administration
 
 - name: Summer School of Physics and Math

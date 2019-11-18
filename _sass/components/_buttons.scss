@@ -27,6 +27,33 @@
   }
 }
 
+.btn-small {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 10px;
+  float: right;
+  padding: 2px 5px;
+  font-size: 1em;
+  font-family: $font-family-base;
+  font-weight: 500;
+  background-color: $primary;
+  color: $white;
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-color: $primary;
+  text-decoration: none !important;
+  border-radius: 5px;
+  &:visited {
+    color: $white;
+    border-color: $primary;
+  }
+  &:hover {
+    background-color: $white;
+    color: $primary;
+    border-color: $primary;
+  }
+}
+
 // Success button
 .btn-success {
   background-color: $success;

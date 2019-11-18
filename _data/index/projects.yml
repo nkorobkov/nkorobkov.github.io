@@ -1,8 +1,52 @@
 - name: Bank
-  descr: A full-sized web application to support virtual economy, developed for SSPM. 
+  descr: A full-sized web accounts management system to support the virtual economy.
+  description-link: bank
   github: https://github.com/nkorobkov/bank-lfmsh
+  featured: yes
+  skills:
+    - Python
+    - Django-Framework
+    - PostgreSQL
+    - Docker
+    - Object Oriented Programming
+    - HTML/CSS
+    - AJAX
 
 - name: Microglia Recognition
+  descr: Object recognition software to speed up biological research. Published on conferences.
+  github: https://github.com/nkorobkov/microglia-or
+  description-link: microglia
+  featured: yes
+  skills:
+    - Python
+    - Image Processing
+    - OpenCV
+    - Linear Algebra
+
 - name: Virus War Game
+  descr: Paper and pen game simulator and AI
+  github: https://github.com/nkorobkov/virus-war
+  description-link: virus
+  skills:
+    - Python
+    - Machine Learning
+    - PyTorch
+
 - name: Brain Ring Button
-# - name: Memory Pinball
+  descr: Button system simulator for a brain ring trivia games.
+  github: https://github.com/nkorobkov/brain-ring-button
+  description-link: button
+  website: https://nkorobkov.github.io/brain-ring-button
+  featured: yes
+  skills:
+    - React
+    - HTML/CSS
+
+- name: Memory Pinball
+  descr: Online mini-game to train memory
+  github: https://github.com/nkorobkov/memory-pinball
+  description-link: pinball
+  website: https://nkorobkov.github.io/memory-pinball/
+  skills:
+    - JQuery
+    - HTML/CSS
