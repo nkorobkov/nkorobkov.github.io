@@ -1,0 +1,21 @@
+<h1><span data-i18n="skills.my_skills">Contacts</span></h1>
+
+
+<div class="certs">
+    {% if site.owner.phone %}
+    <div class="cert">
+            <strong>Phone: </strong> {{site.owner.phone}}
+    </div>
+    {% endif%}
+    {% if site.owner.email %}
+    <div class="cert">
+        <strong>Email: </strong> <a href="mailto:{{site.owner.email}}">{{site.owner.email}}</a>
+    </div>
+    {% endif%}
+    {% if site.owner.linkedin %}
+    <div class="cert">
+            <strong>Linkedin: </strong><a href="http://linkedin.com/in/{{ site.owner.linkedin }}" class="social-link-item" target="_blank">http://linkedin.com/in/{{ site.owner.linkedin }}</i></a>
+    </div>
+    {% endif%}
+
+</div>
