@@ -25,6 +25,7 @@
   and:
     - R
     - PostgreSQL
+    - MatLab
 
 - main: Other
   and:

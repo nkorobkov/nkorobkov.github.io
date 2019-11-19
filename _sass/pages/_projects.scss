@@ -1,0 +1,17 @@
+.image_col-2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.image_col-5 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+.image_row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

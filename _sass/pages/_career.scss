@@ -1,11 +1,15 @@
 .description {
-    position: relative;
-    margin: 1em auto .6em;
-    padding-left: 1em;
+  position: relative;
+  margin: 1em auto .6em;
+  padding-left: 1em;
 }
 
-a.project-name{
-    margin: 0.875rem 0 0.7rem 0;
-    font-size: $font-size-h2;
-    color: #000;
+a.project-name {
+  margin: 0;
+  font-size: $font-size-h2;
+  color: #000;
+  text-align: left;
+  float: left;
+  font-weight: 500;
 }
+

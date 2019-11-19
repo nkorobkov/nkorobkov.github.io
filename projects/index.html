@@ -13,8 +13,7 @@ permalink: /projects/
 {% for project in site.data.index.projects %}
 <div class="row">
     <div class="col">
-        <a class="project-name" href="{{site.url}}/projects/{{ project.description-link }} "
-            style="text-align:left;float:left; margin: 0; ">{{ project.name }}</a>
+        <a class="project-name" href="{{site.url}}/projects/{{ project.description-link }}">{{ project.name }}</a>
         {% if project.github %}
         <a class="btn-small" href="{{ project.github }} "><i class="fa fa-fw fa-github"></i>GitHub</a>
         {% endif %}

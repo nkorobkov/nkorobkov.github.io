@@ -5,7 +5,7 @@
     <div class="row">
             <div class="col">
                 <hr>
-                <h2 style="text-align:left;float:left; margin: 0; ">{{ project.name }}</h2>
+                <a class="project-name" href="{{site.url}}/projects/{{ project.description-link }}">{{ project.name }}</a>
                 {% if project.github %}
                 <a class="btn-small" href="{{ project.github }} "><i class="fa fa-fw fa-github"></i>GitHub</a>
                 {% endif %}
@@ -29,3 +29,4 @@
 {% endif %}
 {% endfor %}
 <hr>
+<a href="{{site.url}}/projects" style="font-size:1.5em">More projects on projects page<i class="fa fa-fw fa-external-link"></i></a>

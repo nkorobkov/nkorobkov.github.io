@@ -19,8 +19,9 @@
   featured: yes
   skills:
     - Python
-    - Image Processing
+    - NumPy
     - OpenCV
+    - JIT Compilation
     - Linear Algebra
 
 - name: Virus War Game
@@ -33,7 +34,7 @@
     - PyTorch
 
 - name: Brain Ring Button
-  descr: Button system simulator for a brain ring trivia games.
+  descr: Button system simulator for a brain jeopardy-type games.
   github: https://github.com/nkorobkov/brain-ring-button
   description-link: button
   website: https://nkorobkov.github.io/brain-ring-button
