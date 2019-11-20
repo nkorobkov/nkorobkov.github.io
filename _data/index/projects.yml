@@ -33,11 +33,11 @@
     - Machine Learning
     - PyTorch
 
-- name: Brain Ring Button
+- name: Jeopardy Button
   descr: Button system simulator for a brain jeopardy-type games.
-  github: https://github.com/nkorobkov/brain-ring-button
+  github: https://github.com/nkorobkov/jeopardy-button
   description-link: button
-  website: https://nkorobkov.github.io/brain-ring-button
+  website: https://nkorobkov.github.io/jeopardy-button
   featured: yes
   skills:
     - React
@@ -51,3 +51,11 @@
   skills:
     - JQuery
     - HTML/CSS
+
+- name: Chamomile
+  descr: Web page to present my chamomile tea collection
+  github: https://github.com/nkorobkov/chamomile
+  website: https://nkorobkov.github.io/chamomile
+  skills:
+    - HTML/CSS
+    - Jekyll

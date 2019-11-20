@@ -9,6 +9,16 @@ layout: default
       <span class="post-date">
          {{ page.date | upcase }}
       </span>
+            <br>
+            <span>
+          <a href="{{ page.github }} "><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+            {% if page.website %}
+        <span> • </span>
+            <span>
+          <a href="{{ page.website }} "><i class="fa fa-fw fa-home"></i>Homepage</a>
+      </span>
+            {% endif %}
     </span>
     </header>
 

@@ -17,7 +17,7 @@ date: Feb 2018 - April 2018
 
 ### Problem
 
-Studying the human brain involves taking a pictures of micro structures within brains of lab animals.  
+Studying the human brain involves taking pictures of microstructures within the brains of lab animals.  
 Scientists use such images to extract information about single cells and make claims about different types of organism reactions based on statistics. 
 Typical shot of mice brain after preparation and coloring looks something like this (segment):   
 
@@ -39,16 +39,16 @@ The goal of this project, is to clean the noise from such images and extract mea
 To achieve the goal I used:
 
 - **Python** and  **NumPy** library for data manipulation.
-- **Jupyther** as a REPL for faster  prototyping and experimenting.
+- **Jupyther** as a REPL for faster prototyping and experimenting.
 - **OpenCV** package for image processing and related operations.
 - **Numba** project for Just-In-Time compilation and speed.
 
 ###  Algorithm
 
-Developed algorithm uses multiple stages of components segmentation and component size analysis on the image. 
-Filtering out small components and  merging big components together to form a cell with axons. 
+The developed algorithm uses multiple stages of components segmentation and component size analysis on the image. 
+Filtering out small components and merging big components together to form a cell with axons. 
 
-Algorithm has a lot of parameters that were hand-adjusted with professional biologists. 
+The algorithm has a lot of parameters that were hand-adjusted with professional biologists. 
 These parameters can be changed to adapt the algorithm for usage with different cell types or imaging hardware.
 
 <div class="image_row">
@@ -73,7 +73,7 @@ These parameters can be changed to adapt the algorithm for usage with different 
 
 ### Publications 
 
-This software was used to produce results presented on several scientific conferences.
+This software was used to produce results presented at several scientific conferences.
 Here is the list of some publications:
 
 1. Glyavina M.M., Loginov P.A., Dudenkova V.V., Reunov D.G., Karpova A.O., Prodanets N.N., **Korobkov N.A.**, Zhuchenko M.A., Schelchkova N.A., Mukhina I.V.   
