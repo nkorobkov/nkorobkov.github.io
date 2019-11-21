@@ -1,16 +1,8 @@
 ---
 layout: project
 
-excerpt: Object recognition software to speed up biological research. Published on conferences.
 github: https://github.com/nkorobkov/microglia-or
-featured: yes
-skills:
-  - Python
-  - Image Processing
-  - OpenCV
-  - Linear Algebra
 project-name: Microglia Recognition
-permalink: /projects/microglia
 date: Feb 2018 - April 2018
 ---
 

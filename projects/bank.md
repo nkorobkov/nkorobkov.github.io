@@ -1,20 +1,9 @@
 ---
 layout: project
+
 project-name: Bank 
-permalink: /projects/bank
-descr: A full-sized web accounts management system to support the virtual economy.
-description-link: bank
 github: https://github.com/nkorobkov/bank-lfmsh
-featured: yes
 date: 2016 - 2019
-skills:
-  - Python
-  - Django-Framework
-  - PostgreSQL
-  - Docker
-  - Object Oriented Programming
-  - HTML/CSS
-  - AJAX
   
 slideshow:
   - url: /assets/bank/screen/one.png
@@ -39,7 +28,7 @@ slideshow:
     caption: Money report
 ---
 
-Bank is a huge project. It is a management system to support the virtual economy in summer camp for more than 130 user every year. 
+Bank is a huge project. It is a management system to support the virtual economy in summer camp for more than 130 users every year. 
 
 Here is a table of content:
 - toc
@@ -47,29 +36,29 @@ Here is a table of content:
 
 ### Idea
 Bank is a web app that holds individual accounts for each of > 130 users with different permissions. 
-It allows it's users to issue and transfer money and live within virtual economic system in Summer School of Physics and Math (SSPM). 
+It allows it's users to issue and transfer money and live within the virtual economic system in the Summer School of Physics and Math (SSPM). 
 
 ### Features
 
 From **Student** account students can:
 - See their current balance and transaction history.
-- See their attendance counters and required number of attendance for each type of activity.
+- See their attendance counters and the required number of attendance for each type of activity.
 - Request to transfer money to a fellow student.
-- See files from global cloud.
+- See files from the global cloud.
 
-**Staff** members has different permissions and can do much more:
+**Staff** members have different permissions and can do much more:
 
 - See balance, attendance and transaction history for any student in the camp.
 - Create transactions to issue virtual currency to any student or group of students.
     - Each transaction should have one of **12 types** (e.g. Seminar, Activity-winners, Generic Help, e.t.c.) 
-    - Each of 12 types of transactions has different logic applied to it. 
-    - After creation transactions could be altered, canceled or used  as template for new ones.
+    - Each of the 12 types of transactions has different logic applied to it. 
+    - After creation transactions could be altered, canceled or used as a template for new ones.
 - Charge money from students for fines and purchases. 
-- Increment students attendance counters.
-- Add files to global cloud.
+- Increment students' attendance counters.
+- Add files to the global cloud.
 - Approve money transfers for students.
-- See aggregated statistics on current market state in the camp.
-- Generate reports with detailed per-student statistics on balances and attendances. 
+- See aggregated statistics on the current market state in the camp.
+- Generate reports with detailed per-student statistics on balances and attendance. 
  
 There is also a role of **Bank Manager**, who, in addition to regular staff actions, can also:
 - See transaction history for each staff member. 
@@ -79,7 +68,7 @@ There is also a role of **Bank Manager**, who, in addition to regular staff acti
 From the **technical side** bank also has:
 
 - API for  **Mobile App!**
-- Scripts for an automatic deployment. 
+- Scripts for automatic deployment. 
 - Automatic tax charging with cron.
 
 

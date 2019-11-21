@@ -22,12 +22,23 @@
   organization: Computer Science Center
   organization-link: https://compscicenter.ru/
 
+- name: Web Technologies
+  pdf: web-technologies.pdf
+  date: 2016
+  organization: Mail.ru Group
+  organization-link: https://corp.mail.ru/en/
+
 - name: Intro to Unix Systems
   pdf: intro-to-unix.pdf
   date: 2016
   organization: Bioinformatics Institute
   organization-link: https://bioinf.me/en
 
+- name: Applied Python
+  pdf: python-aplications.pdf
+  date: 2016
+  organization: Bioinformatics Institute
+  organization-link: https://bioinf.me/en
 
 - name: Data Analysis using R
   pdf: data-analysis-in-R.pdf
@@ -35,22 +46,9 @@
   organization: Bioinformatics Institute
   organization-link: https://bioinf.me/en
 
-- name: Web Technologies
-  pdf: web-technologies.pdf
-  date: 2016
-  organization: Mail.ru Group
-  organization-link: https://corp.mail.ru/en/
-
-
 - name: Python Programming
   pdf: python-programming.pdf
   date: 2016
   organization: Bioinformatics Institute
   organization-link: https://bioinf.me/en
 
-
-- name: Applied Python
-  pdf: python-aplications.pdf
-  date: 2016
-  organization: Bioinformatics Institute
-  organization-link: https://bioinf.me/en

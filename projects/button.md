@@ -1,15 +1,10 @@
 ---
 layout: project
+
 project-name: Jeopardy Button
-permalink: /projects/button
-descr: Button system simulator for a brain jeopardy-type games.
 github: https://github.com/nkorobkov/jeopardy-button
 website: https://nkorobkov.github.io/jeopardy-button
-featured: yes
 date: Jun 2018
-skills:
-  - React
-  - HTML/CSS
 ---
 
 ### Game
