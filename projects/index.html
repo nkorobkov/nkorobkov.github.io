@@ -1,0 +1,39 @@
+---
+layout: page
+title:  Projects
+permalink: /projects/
+---
+<div class="row">
+    <div class="col">
+        Here is an incomplete list of projects I did to educate myself since 2014. <br>
+        Each project has it's own detailed description page.
+        <hr>
+    </div>
+</div>
+{% for project in site.data.index.projects %}
+<div class="row">
+    <div class="col">
+        <a class="project-name" href="{{site.url}}/projects/{{ project.description-link }}">{{ project.name }}</a>
+        {% if project.github %}
+        <a class="btn-small" href="{{ project.github }} "><i class="fa fa-fw fa-github"></i>GitHub</a>
+        {% endif %}
+        {% if project.description-link %}
+        <a class="btn-small" href="{{site.url}}/projects/{{ project.description-link }} "><i
+                class="fa fa-fw fa-file-text-o"></i>Description</a>
+        {% endif %}
+        {% if project.website %}
+        <a class="btn-small" href="{{ project.website }} "><i class="fa fa-fw fa-home"></i>Homepage</a>
+        {% endif %}
+        <br style="clear:both;"/>
+        <p style="margin: 0">{{ project.descr }}</p>
+        <div class="skills">
+            <div class="skillset" style="padding-left: 0">
+                {% for skill in project.skills %}
+                <span class="skill-add">{{skill}}</span>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+{% endfor %}

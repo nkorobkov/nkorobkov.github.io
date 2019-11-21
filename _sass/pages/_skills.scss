@@ -1,0 +1,48 @@
+.skills {
+  
+  .skillset {
+    position: relative;
+    margin: 1em auto 1em;
+    padding-left: 1em;
+    
+    .skill-main {
+      margin-right: .4em;
+      &:before {
+        content: " ";
+        display: inline;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-left: -4px;
+        margin-top: -4px;
+        width: 8px;
+        height: 8px;
+        background: #bbb;
+        border-radius: 50%;
+    }
+    }
+    .skill-add {
+        margin-right: .4em;
+        background-color: #ddd;
+        display: inline;
+        font-size: 75%;
+        padding: .2em .6em .3em;
+        font-weight: 600;
+        line-height: 1;
+        color: #000;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: .25em;
+    }
+
+  }
+
+
+  ul {
+    list-style: none;
+    li {
+      margin: 1em auto;
+    }
+  }
+}

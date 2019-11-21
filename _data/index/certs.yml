@@ -1,0 +1,54 @@
+- name: Java Web Service Development
+  pdf: java-web-service.pdf
+  date: 2019
+  organization: Mail.ru Group
+  organization-link: https://corp.mail.ru/en/
+
+- name: Intro to Databases
+  pdf: intro-to-databases.pdf
+  date: 2019
+  organization: Computer Science Center
+  organization-link: https://compscicenter.ru/
+
+- name: Algorithms and Data Structures
+  pdf: algorithms-and-data-structures.pdf
+  date: 2018
+  organization: Bioinformatics Institute
+  organization-link: https://bioinf.me/en
+
+- name: Java Base
+  pdf: java-base.pdf
+  date: 2017
+  organization: Computer Science Center
+  organization-link: https://compscicenter.ru/
+
+- name: Web Technologies
+  pdf: web-technologies.pdf
+  date: 2016
+  organization: Mail.ru Group
+  organization-link: https://corp.mail.ru/en/
+
+- name: Intro to Unix Systems
+  pdf: intro-to-unix.pdf
+  date: 2016
+  organization: Bioinformatics Institute
+  organization-link: https://bioinf.me/en
+
+- name: Applied Python
+  pdf: python-aplications.pdf
+  date: 2016
+  organization: Bioinformatics Institute
+  organization-link: https://bioinf.me/en
+
+- name: Data Analysis using R
+  pdf: data-analysis-in-R.pdf
+  date: 2016
+  organization: Bioinformatics Institute
+  organization-link: https://bioinf.me/en
+
+- name: Python Programming
+  pdf: python-programming.pdf
+  date: 2016
+  organization: Bioinformatics Institute
+  organization-link: https://bioinf.me/en
+

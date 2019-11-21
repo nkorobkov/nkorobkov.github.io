@@ -1,0 +1,26 @@
+.certs {
+
+  .cert {
+    position: relative;
+    margin: 1em auto 1em;
+    padding-left: 1em;
+
+    .cert-name {
+      color: #000;
+      font-weight: bold;
+    }
+    &:before {
+      content: " ";
+      display: inline;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      margin-left: -4px;
+      margin-top: -4px;
+      width: 8px;
+      height: 8px;
+      background: #bbb;
+      border-radius: 50%;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<div class="navy-line"></div>
+<h1><span data-i18n="skills.my_skills">Ceftificates</span></h1>
+
+<div class="certs">
+    {% for cert in site.data.index.certs %}
+    <div class="cert">
+        <div class="archive-year">
+            <a class="cert-name" href="{{ site.url }}/assets/certs/{{ cert.pdf }}">
+                {{ cert.name }} <i class="fa fa-fw  fa-file-o"></i>
+            </a> <br>
+        {{cert.date}} <a href="{{cert.organization-link}}">{{cert.organization}}</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
