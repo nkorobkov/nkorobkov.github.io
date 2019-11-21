@@ -4,6 +4,8 @@ layout: project
 github: https://github.com/nkorobkov/microglia-or
 project-name: Microglia Recognition
 date: Feb 2018 - April 2018
+permalink: /projects/microglia
+
 ---
 
 

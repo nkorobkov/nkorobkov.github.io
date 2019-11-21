@@ -4,6 +4,7 @@ layout: project
 project-name: Bank 
 github: https://github.com/nkorobkov/bank-lfmsh
 date: 2016 - 2019
+permalink: /projects/bank
   
 slideshow:
   - url: /assets/bank/screen/one.png

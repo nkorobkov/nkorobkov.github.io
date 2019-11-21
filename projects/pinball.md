@@ -2,7 +2,8 @@
 layout: project
 project-name: Memory Pinball
 github: https://github.com/nkorobkov/memory-pinball
-description-link: pinball
+permalink: /projects/pinball
+
 website: https://nkorobkov.github.io/memory-pinball/
 date: FEB 2017 - MAR 2017
 ---

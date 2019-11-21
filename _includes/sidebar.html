@@ -14,7 +14,7 @@
       <li class="nav-item">
         <a href="{{ site.url }}/">home</a>
       </li>
-      {% for page in site.pages %} {% if page.title %}
+      {% for page in site.pages %} {% if page.sidebar %}
       <li class="nav-item">
         <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
       </li>
