@@ -8,7 +8,7 @@
     - Django-Framework
     - PostgreSQL
     - Docker
-    - Object Oriented Programming
+    - Nginx
     - HTML/CSS
     - AJAX
 
@@ -34,7 +34,7 @@
     - PyTorch
 
 - name: Jeopardy Button
-  descr: Button system simulator for a brain jeopardy-type games.
+  descr: Button system simulator for a jeopardy-type games.
   github: https://github.com/nkorobkov/jeopardy-button
   description-link: button
   website: https://nkorobkov.github.io/jeopardy-button

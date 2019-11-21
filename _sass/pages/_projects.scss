@@ -16,8 +16,25 @@
   padding: 10px;
 }
 
+
+.image_col-6 {
+  float: left;
+  width: 16%;
+  padding: 3px;
+}
+
 .image_row::after {
   content: "";
   clear: both;
   display: table;
+}
+
+.pic-title{
+
+  color: $secondary;
+  font-size: 150%;
+  font-style: italic;
+  width: 100%;
+  align-content: center;
+  font-weight: 600;
 }
