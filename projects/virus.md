@@ -1,6 +1,7 @@
 ---
 layout: project
 project-name: Virus War Game
+title: Virus War Game
 permalink: /projects/virus
 github: https://github.com/nkorobkov/virus-war
 date: Ongoing since oct 2019

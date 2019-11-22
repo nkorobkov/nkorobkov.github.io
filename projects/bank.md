@@ -2,6 +2,7 @@
 layout: project
 
 project-name: Bank 
+title: Bank
 github: https://github.com/nkorobkov/bank-lfmsh
 date: 2016 - 2019
 permalink: /projects/bank
@@ -37,7 +38,7 @@ Here is a table of content:
 
 ### Idea
 Bank is a web app that holds individual accounts for each of > 130 users with different permissions. 
-It allows it's users to issue and transfer money and live within the virtual economic system in the Summer School of Physics and Math (SSPM). 
+It allows it's users to issue and transfer money and live within the virtual economic system in the Summer Physical and Mathematical School (SPMS). 
 
 ### Features
 
@@ -157,7 +158,7 @@ Now it can be deployed with a single `docker-compose up` command.
 
 ### Achievements and Metrics
 
-App was successfully deployed and used on every session of Summer School of Physics and Math since 2016. 
+App was successfully deployed and used on every session of Summer Physical and Mathematical School since 2016. 
 During that period it:
 
 - Was used by more than 400 students and 100 staff members.

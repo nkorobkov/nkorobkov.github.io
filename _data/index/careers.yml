@@ -16,8 +16,8 @@
     - HSQLDB
     - JIRA
 
-- name: Summer School of Physics and Math
-  link: http://lfmsh.ru
+- name: Summer Physical and Mathematical School
+  link: https://ipfran.ru/training/summer-school
   date: Aug 2016, Aug 2017, Aug 2018
   job: Software Engineer
   description: • Designed and Developed a full-sized web application to support a gamification system that was previously run on Excel spreadsheets.<br>
@@ -32,8 +32,8 @@
     - Nginx
     - System Administration
 
-- name: Summer School of Physics and Math
-  link: http://lfmsh.ru
+- name: Summer Physical and Mathematical School
+  link: https://ipfran.ru/training/summer-school
   date: Aug 2016, Aug 2017, Aug 2018
   job: Python Teacher
   description: • Taught the 3-week course of Python to 9-12 grades.

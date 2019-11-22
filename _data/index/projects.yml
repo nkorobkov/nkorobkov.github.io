@@ -1,7 +1,7 @@
 - name: Bank
   descr: A full-sized web accounts management system to support the virtual economy.
   description-link: bank
-  github: https://github.com/nkorobkov/bank-lfmsh
+  github: https://github.com/nkorobkov/lfmsh_bank
   featured: yes
   skills:
     - Python
@@ -11,14 +11,6 @@
     - Nginx
     - HTML/CSS
     - AJAX
-
-- name: Chamomile
-  descr: Web page to present my chamomile tea collection.
-  github: https://github.com/nkorobkov/chamomile
-  website: https://nkorobkov.github.io/chamomile
-  skills:
-    - HTML/CSS
-    - Jekyll
 
 
 - name: Virus War Game
@@ -62,6 +54,13 @@
     - Natural Language Processing
     - PyTorch
 
+- name: Chamomile
+  descr: Web page to present my chamomile tea collection.
+  github: https://github.com/nkorobkov/chamomile
+  website: https://nkorobkov.github.io/chamomile
+  skills:
+    - HTML/CSS
+    - Jekyll
 
 - name: Jeopardy Button
   descr: Button system simulator for a jeopardy-type games.

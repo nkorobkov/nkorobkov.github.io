@@ -4,6 +4,7 @@ layout: project
 project-name: Jeopardy Button
 github: https://github.com/nkorobkov/jeopardy-button
 website: https://nkorobkov.github.io/jeopardy-button
+title: Jeopardy Button
 date: Jun 2018
 permalink: /projects/button
 ---

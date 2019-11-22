@@ -3,6 +3,7 @@ layout: project
 project-name: Memory Pinball
 github: https://github.com/nkorobkov/memory-pinball
 permalink: /projects/pinball
+title: Memory Pinball
 
 website: https://nkorobkov.github.io/memory-pinball/
 date: FEB 2017 - MAR 2017
