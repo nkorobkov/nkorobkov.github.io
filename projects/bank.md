@@ -37,8 +37,8 @@ Here is a table of content:
 {:toc}
 
 ### Idea
-Bank is a web app that holds individual accounts for each of > 130 users with different permissions. 
-It allows it's users to issue and transfer money and live within the virtual economic system in the Summer Physical and Mathematical School (SPMS). 
+Bank is a web app that holds individual accounts of more than 130 users with different permissions. 
+It allows it's users to issue and transfer money and live within the virtual economic system in the [Summer Physical and Mathematical School (SPMS).](https://ipfran.ru/training/summer-school) 
 
 ### Features
 
@@ -136,9 +136,9 @@ I agreed and developed the following *REST API* endpoints to serve application n
 
 > **POST: /bank_api/add_transaction** -- checks validity of transaction and adds money transfer request into the DB.
 
-Project succeeded and [Android application <i class="fa fa-fw fa-github"></i>](https://github.com/KeepItRealAlways/BankApp) functioned on SSPM session in 2018.
+Project succeeded and [Android application <i class="fa fa-fw fa-github"></i>](https://github.com/KeepItRealAlways/BankApp) functioned on SPMS session in 2018.
 
-There is also couple endpoints for data exportation for external analysis. They are only available to users with a **Bank Manager** role. 
+There is also a couple of endpoints for data exportation for external analysis. They are only available to users with a **Bank Manager** role. 
 
 > **GET: /bank_api/money** -- returns information about all money transactions in the system.
 
@@ -154,7 +154,7 @@ Now it can be deployed with a single `docker-compose up` command.
 <!---  https://www.planttext.com/?text=dPJTJkCm48MlyLDOtkj829P2LmXHG5sG086gXUl1TeAthbsD7K12l3kJdwPnMs3P-2QPC_cSCpxASOY0iPnP5asq-XUVQ7pIo07beubQnX8r0slzyyoy65Sm5gR6pG5Xnf5aS8NL_9LjdO2S5kXBfqwzzSX_v7lL8i6ZqjWMV-uy30zssLiVeo320uHlKBQ7evFneABqCBctrF7laF7UQB2pyYcv-OwPZh04XEWHYl-nicI09CXcmcwrLWXvFXWCXwaFQI642Z52zCzjuu7QrqhMKskscCHIwUX2zmXvpfZpIdDnxaFaLq0XS5fmGd6w6kcwCEvbaPDJxo9G3ugsfxgMmQXxw_fRZp2QpwsH48rtNm7A-ydl2xv146T_wSPpOecr3SuMaTf8xm8dRiXbWNfoUzaL-x0sKe8c4utaOqf74Ado2AXLebGH4d-SeH5vETMnNsxSM5yqnKLQwk_bTzwMitR_wfIQEMVPqVAW-gNwi7f4VfXbpRZeWFlJgOIZ3xokDbgTHsfkCEkGp-iiiPsyiIuqoM3fR7bMpZij7MuYiOrkMgF9C1axraxH_-qT ---> 
  <img src="{{site.url}}/assets/bank/deployment-pic.png"/>
 
-*More detailed information about exact deployment and setup procedure can be found in <a href ="https://github.com/nkorobkov/lfmsh_bank"> GitHub repo <i class="fa fa-fw fa-github"></i></a> readme.*  
+*More detailed information about an exact deployment and setup procedure can be found in <a href ="https://github.com/nkorobkov/lfmsh_bank"> GitHub repo <i class="fa fa-fw fa-github"></i></a> readme.*  
 
 ### Achievements and Metrics
 
@@ -164,8 +164,8 @@ During that period it:
 - Was used by more than 400 students and 100 staff members.
 - Processed over 10 000 individual transactions.
 - Eliminated paperwork related to the economics game completely.
-- Allowed SSPM to be run by smaller number of people, by eliminating bank specialist role. 
-- Was mentioned in grant application that resulted in over $1500 donation to the SSPM program. 
+- Allowed SPMS to be run by smaller number of people, by eliminating bank specialist role. 
+- Was mentioned in grant application that resulted in over $1500 donation to the SPMS program. 
 
 ### Screenshots
 
