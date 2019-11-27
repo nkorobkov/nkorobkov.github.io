@@ -1,5 +1,11 @@
 # skills section data
 
+- main: Java
+  and:
+    - Spring-Framework
+    - Hibernate
+    - Maven
+
 - main: Python
   and: 
     - Django-Framework
@@ -7,12 +13,6 @@
     - PyTorch
     - OpenCV
     - Jypyter
-  
-- main: Java
-  and:
-    - Spring-Framework
-    - Hibernate
-    - Maven
 
 - main: Web
   and:
