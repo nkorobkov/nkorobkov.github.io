@@ -72,3 +72,13 @@
   skills:
     - React
     - HTML/CSS
+
+
+- name: PicMaker
+  descr: My very first project from 2013 to generate pleasing ornaments with cellular automata.
+  description-link: picmaker
+  skills:
+    - Visual Basic
+    - Cellular Automata
+    - Life
+    - Standalone

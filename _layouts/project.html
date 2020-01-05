@@ -10,9 +10,12 @@ layout: default
          {{ page.date | upcase }}
       </span>
             <br>
+            {% if page.github %}
             <span>
           <a href="{{ page.github }} "><i class="fa fa-fw fa-github"></i>GitHub</a>
       </span>
+            {% endif %}
+
             {% if page.website %}
         <span> • </span>
             <span>
@@ -24,8 +27,12 @@ layout: default
     <article class="page-content">
         {{ content }}
     </article>
-    <a class="btn" href="{{ page.github }} "><i class="fa fa-fw fa-github"></i>Project GitHub</a>
-    {% if page.website %} <a class="btn" href="{{ page.website }} "><i class="fa fa-fw fa-home"></i> Project Homepage</a>{% endif %}
+    {% if page.github %}
+        <a class="btn" href="{{ page.github }} "><i class="fa fa-fw fa-github"></i>Project GitHub</a>
+    {% endif %}
+    {% if page.website %}
+        <a class="btn" href="{{ page.website }} "><i class="fa fa-fw fa-home"></i> Project Homepage</a>
+    {% endif %}
     <a class="btn" href="{{ site.url }}/projects">Other Projects</a>
     <a class="btn" href="{{ site.url }}/">Home</a>
 </div><!-- end page content -->
