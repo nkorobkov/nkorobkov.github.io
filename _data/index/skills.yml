@@ -7,30 +7,33 @@
     - Maven
 
 - main: Python
-  and: 
+  and:
     - Django-Framework
     - NumPy
     - PyTorch
     - OpenCV
     - Jypyter
 
-- main: Web
+- main: Web/JS
   and:
-    - HTML/CSS/JS
-    - JQuery
-    - React
-    - Angular
+    - TypeScript
+    - NestJS
+    - Node.js
 
 - main: Data
   and:
+    - Kafka
+    - Snowflake
+    - Looker
     - R
-    - PostgreSQL
     - MatLab
 
 - main: Other
   and:
-    - git
     - Docker
+    - Kubernetes
+    - CircleCI
+    - DataDog
     - AWS
     - JIRA
     - Unix

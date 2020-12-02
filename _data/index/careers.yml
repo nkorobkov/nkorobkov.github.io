@@ -4,12 +4,14 @@
   link: https://www.hqo.co/
   date: Jan 2019 - Now
   job: Software Engineer
-  description: • Backend Engineer working on Analytics platform. 
+  description: • Set up a data collection pipelines with Kafka and Snowflake and build enterprise level analytics within 6 month. <br>
+    • Participated in designing and building a versatile role based access system to enable robust scaling of company solution. <br>
   skills:
     - NodeJS
-    - GraphQL
+    - Kafka
     - Snowflake
     - NestJS
+    - Microservices
 
 - name: Natera
   link: http://natera.com/
