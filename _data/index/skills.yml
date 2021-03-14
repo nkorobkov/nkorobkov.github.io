@@ -19,6 +19,7 @@
     - TypeScript
     - NestJS
     - Node.js
+    - HTML/CSS
 
 - main: Data
   and:
@@ -32,6 +33,7 @@
   and:
     - Docker
     - Kubernetes
+    - Git
     - CircleCI
     - DataDog
     - AWS

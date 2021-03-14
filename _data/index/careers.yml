@@ -2,14 +2,29 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name: HqO
   link: https://www.hqo.co/
-  date: Jan 2019 - Now
-  job: Software Engineer
-  description: • Set up a data collection pipelines with Kafka and Snowflake and build enterprise level analytics within 6 month. <br>
-    • Participated in designing and building a versatile role based access system to enable robust scaling of company solution. <br>
+  date: Jan 2021 - Current
+  job: Senior Software Engineer
+  description: • As an SSE at HqO, I continuously build and improve the set of analytics dashboards presenting over 25 individual charts and metrics to users of the HqO landlord headquarters application in real time. <br>
   skills:
     - NodeJS
     - Kafka
     - Snowflake
+    - SQL
+    - NestJS
+    - Microservices
+
+- name: HqO
+  link: https://www.hqo.co/
+  date: Jan 2020 - Jan 2021
+  job: Software Engineer
+  description: • Set up data collection pipelines from scratch using Kafka, Python, and Snowflake. Collected and processed over 150.000 data-points daily. <br>
+   • Participated in designing and building a versatile role-based access control system to enable robust scaling of HqO solution using Node.js. <br>
+   • Eliminated over 50 hours of manual work per month by providing automated reports on application usage to customers. <br>
+  skills:
+    - NodeJS
+    - Kafka
+    - Snowflake
+    - SQL
     - NestJS
     - Microservices
 
