@@ -3,7 +3,7 @@ layout: project
 
 project-name: Bank 
 title: Bank
-github: https://github.com/nkorobkov/bank-lfmsh
+github: https://github.com/nkorobkov/lfmsh_bank
 date: 2016 - 2019
 permalink: /projects/bank
   
