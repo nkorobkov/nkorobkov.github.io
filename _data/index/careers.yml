@@ -1,10 +1,20 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Amazon
+  link: https://aws.amazon.com/
+  date: Aug 2021 - Current
+  job: Sowtware Engineer
+  description: • Joined Enterprise Engineering in Amazon Web Services.
+  skills:
+    - Python
+    - AWS Kinesis
+
 - name: HqO
   link: https://www.hqo.co/
-  date: Jan 2021 - Current
+  date: Jan 2021 - Jun 2021
   job: Senior Software Engineer
-  description: • As an SSE at HqO, I continuously build and improve the set of analytics dashboards presenting over 25 individual charts and metrics to users of the HqO landlord headquarters application in real time. <br>
+  description: • Planned and implemented a set of analytics dashboards presenting over 25 individual charts and metrics to users of the HqO landlord headquarters application. That proved to be a critical feature to secure deals with several customers. <br>
+   • Architected and developed monitoring solution for existing analytic pipelines. Set up a continious delivery for the monitoring jobs.
   skills:
     - NodeJS
     - Kafka
@@ -13,6 +23,8 @@
     - NestJS
     - Microservices
     - Kubernetes
+    - Argo
+    - Python
 
 - name: HqO
   link: https://www.hqo.co/

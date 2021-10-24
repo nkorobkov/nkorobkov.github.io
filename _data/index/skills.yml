@@ -23,6 +23,7 @@
 
 - main: Data
   and:
+    - SQL
     - Kafka
     - Snowflake
     - Looker
@@ -31,12 +32,14 @@
 
 - main: Other
   and:
+    - AWS
     - Docker
     - Kubernetes
     - Git
+    - Terraform
+    - Argo
     - CircleCI
     - DataDog
-    - AWS
     - JIRA
     - Unix
 
