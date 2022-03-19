@@ -12,7 +12,7 @@
     - NumPy
     - PyTorch
     - OpenCV
-    - Jypyter
+    - Jupyter
 
 - main: Web/JS
   and:
