@@ -4,7 +4,7 @@
   link: https://aws.amazon.com/
   date: Aug 2021 - Current
   job: Software Engineer
-  description: • Saved over $500K/year in infrastructure costs by redesigning a logs collection pipeline and moving the process from physical hardware to the cloud.
+  description: • Saved over $500K/year in infrastructure costs by redesigning a logs collection pipeline and moving the process from physical hardware to the cloud. <br>
    • Improved coverage of analytics data collection by 50% by codifying needed infrastructure components and setting up an automatic process for deployments on every host.
   skills:
     - Python
