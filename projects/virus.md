@@ -3,20 +3,36 @@ layout: project
 project-name: Virus War Game
 title: Virus War Game
 permalink: /projects/virus
-github: https://github.com/nkorobkov/virus-war
-date: Ongoing since oct 2019
+github: https://github.com/nkorobkov/virus-game
+website: https://viruswar.nkorobkov.com
+date: Oct 2019 - Dec 2019
+
+slideshow:
+  - url: /assets/virus/1.png
+  - url: /assets/virus/2.png
+  - url: /assets/virus/3.png
+  - url: /assets/virus/4.png
+  - url: /assets/virus/5.png
+
 ---
 
 ### Idea
 
 The Virus War is a complete information strategic game between two players (similar to Chess and Go) that can be played on checked paper. 
 
-This project is work in progress to:
+This project includes:
 
-- Implement the game engine <i class="fa fa-fw fa-check"></i>
-- Create an AI that is interesting to play with <i class="fa fa-fw fa-check"></i>
-- Optimize the Engine and AI to make moves in less than 10 sec. <i class="fa fa-fw fa-check"></i>
-- Create a Web UI to play with AI (work in progress)
+- The game engine to process moves and emulate the environment.
+- AI that produces logical moves, and beats newbie player. (using minimax)
+- More sophisticated neural-net AI that does not quite reach level-3 minimax performance.
+- Optimizations for the Engine and AI to make moves in less than 10 sec. 
+- Web server to host AI API.
+- Web UI to explore the game and play with AI. *[frontend code](https://github.com/nkorobkov/virus-frontend)*
+- Session Controller to hold sessions and allow users to create rooms and play with each other online.
+
+### UI
+
+{% include slideshow.html %}
 
 ### Rules of the game
 
@@ -30,4 +46,6 @@ This project is work in progress to:
     - A base is considered to be active if it is in contact (vertically, horizontally or diagonally) with another active base or virus of your color. 
 6. You can only make steps at cells that are in contact with your active bases or viruses. 
 7. You lose the game if you have no valid moves. 
+
+*you can see the same rules in more detail on the project site itself <viruswar.nkorobkov.com>*
 
