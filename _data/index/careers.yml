@@ -1,11 +1,22 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Audible (Amazon) 
+  link: https://audible.com/
+  date: Nov 2022 - Current
+  job: Software Engineer
+  description: • Transfered to a local Cambridge team in Audible to work on the audible search. <br>
+  skills:
+    - ElasticSearch
+    - AWS ECS
+    - Java
+
 - name: Amazon
   link: https://aws.amazon.com/
-  date: Aug 2021 - Current
+  date: Aug 2021 - Nov 2022
   job: Software Engineer
   description: • Saved over $500K/year in infrastructure costs by redesigning a logs collection pipeline and moving the process from physical hardware to the cloud. <br>
-   • Improved coverage of analytics data collection by 50% by codifying needed infrastructure components and setting up an automatic process for deployments on every host.
+   • Improved coverage of analytics data collection by 50% by codifying needed infrastructure components and setting up an automatic process for deployments on every host. <br>
+   • Enhanced Amazon's enterprise-wide authentication security by architecting and deploying a service to detect password brute-force and spraying attacks.
   skills:
     - Python
     - AWS Kinesis

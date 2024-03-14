@@ -1,3 +1,15 @@
+- name: AWS Solutions Architect Associate
+  pdf: aws-architect.pdf
+  date: 2024
+  organization: AWS
+  organization-link: https://cp.certmetrics.com/amazon/en/public/verify/credential/84ba2a37ecaa46f2821c1c8fac682214
+
+- name: Elasticsearch Certified Engineer
+  pdf: elasticsearch-engineer.pdf
+  date: 2024
+  organization: Elastic
+  organization-link: https://certified.elastic.co/87b107dc-10b5-48aa-b0a4-3337c1b0351f/
+  
 - name: Java Web Service Development
   pdf: java-web-service.pdf
   date: 2019
