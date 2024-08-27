@@ -13,11 +13,23 @@
     - HTML/CSS
     - AJAX
 
+- name: Web Engineering Course
+  descr: 10-lecture course of web engineering fundamentals
+  github: https://github.com/nkorobkov/web-eng-course
+  description-link: web-course
+  featured: yes
+  skills:
+    - Teaching
+    - HTML/CSS
+    - NodeJS
+    - Express
+    - MongoDB
 
 - name: Virus War Game
   descr: Paper and pen game simulator and AI.
   github: https://github.com/nkorobkov/virus-war
   description-link: virus
+  featured: yes
   skills:
     - Python
     - Machine Learning
@@ -27,7 +39,6 @@
   descr: Object recognition software to speed up biological research. Published on conferences.
   github: https://github.com/nkorobkov/microglia-or
   description-link: microglia
-  featured: yes
   skills:
     - Python
     - NumPy
@@ -35,6 +46,14 @@
     - JIT Compilation
     - Linear Algebra
 
+- name: Routine Tracker
+  descr: Hardware device for tracking of repetitive tasks.
+  description-link: routine-tracker
+  skills:
+    - Hardware
+    - C
+    - Plate Design
+    - 3D-Printing
 
 - name: Memory Pinball
   descr: Online mini-game to train memory.
@@ -68,7 +87,6 @@
   github: https://github.com/nkorobkov/jeopardy-button
   description-link: button
   website: https://nkorobkov.github.io/jeopardy-button
-  featured: yes
   skills:
     - React
     - HTML/CSS
