@@ -25,6 +25,16 @@
     - Express
     - MongoDB
 
+- name: One Click Routine
+  descr: Tracking of repetitive tasks with a single click.
+  github: https://github.com/nkorobkov/one-click-routine
+  description-link: one-click-routine
+  featured: no
+  skills:
+    - React
+    - Vite
+    - LLM's
+
 - name: Virus War Game
   descr: Paper and pen game simulator and AI.
   github: https://github.com/nkorobkov/virus-war
